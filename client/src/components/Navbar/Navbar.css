@@ -26,7 +26,44 @@ nav {
     padding: 5px 25px;
 }
 
-.nav-items {
+.nav-item {
     margin: 0px 3px;
     font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    transition: .2s;
 }
+
+.nav-btn {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.nav-item:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.navbar form input {
+    min-width: 90%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: 1px solid #00003e;
+    border-radius: 3px;
+}
+
+.navbar form {
+    flex-grow: 1;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.navbar form .search-icon {
+    position: absolute;
+    left: 25px;
+    top: 8px;
+}
+
+
