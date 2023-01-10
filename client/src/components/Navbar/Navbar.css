@@ -66,4 +66,13 @@ nav {
     top: 8px;
 }
 
+.nav-links {
+    padding: 7px 13px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    background-color: #e7f8fe;
+    cursor: pointer;
+}
+
+
 
