@@ -30,7 +30,6 @@ const Navbar = () => {
                         <Button>Log out</Button>
                     </>
                 }
-            
             </div>
         </nav>
     )

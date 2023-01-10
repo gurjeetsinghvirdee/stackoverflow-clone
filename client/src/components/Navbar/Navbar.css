@@ -13,3 +13,11 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+.navbar {
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
