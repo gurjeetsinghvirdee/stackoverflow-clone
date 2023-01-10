@@ -21,3 +21,12 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
+.nav-logo {
+    padding: 5px 25px;
+}
+
+.nav-items {
+    margin: 0px 3px;
+    font-size: small;
+}
