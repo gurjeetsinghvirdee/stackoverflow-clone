@@ -1,9 +1,10 @@
 import React from 'react';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 import logo  from '../../assets/logo1.png'
 import { FiSearch } from "react-icons/fi";
-import Avatar from '../../components/Avatar';
-import Button from '../../components/Buttons';
+import Avatar from '../Avatar/Avatar';
+import Button from '../Buttons/Button';
 
 const Navbar = () => {
 
